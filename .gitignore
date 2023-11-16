@@ -1,0 +1,9 @@
+# ignore ALL . files
+.DS_Store
+
+# igore cache 
+/Codes/.ipynb_checkpoints
+
+# igore swap
+
+/Codes/*.swp
