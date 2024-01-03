@@ -7,3 +7,11 @@
 # igore swap
 
 /Codes/*.swp
+
+# igore checkpoint
+
+/Codes/*-checkpoint.ipynb
+
+# igore checkpoint
+
+/talk
