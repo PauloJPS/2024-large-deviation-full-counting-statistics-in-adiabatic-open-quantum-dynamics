@@ -1,6 +1,11 @@
 # ignore ALL . files
 .DS_Store
 
+/Codes/.DS_Store
+/Figures/.DS_Store
+
+
+
 # igore cache 
 /Codes/.ipynb_checkpoints
 
