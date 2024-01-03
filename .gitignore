@@ -1,10 +1,8 @@
 # ignore ALL . files
-.DS_Store
+.*
 
-/Codes/.DS_Store
-/Figures/.DS_Store
-
-
+/Codes/.*
+/Figures/.*
 
 # igore cache 
 /Codes/.ipynb_checkpoints
@@ -16,6 +14,11 @@
 # igore checkpoint
 
 /Codes/*-checkpoint.ipynb
+
+# igore data
+
+/Codes/*.pickle
+
 
 # igore checkpoint
 
