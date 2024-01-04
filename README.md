@@ -1,5 +1,6 @@
-# Adiabatic-Large-Deviations
-Directory for the project on large deviations of adiabatic open quantum dynamics
+# 2024-large-deviation-full-counting-statistics-in-adiabatic-open-quantum-dynamics 
+
+Codes for reproducing the data and plots of the draft entitled "Large deviation full counting statistics in adiabatic open quantum dynamics"
 
 Authors: Paulo J. Paulino, Igor Lesanovsky, and Federico Carollo
 
