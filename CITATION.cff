@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: Large Deviation Full Counting Statistics in Adiabatic Open Quantum Dynamics
+doi: (not yet available)
+authors:
+  - name: Paulo J. Paulino
+  - name: Igor Lesanovsky
+  - name: Federico Carollo
+version: 2024
+repository-code: "https://github.com/PauloJPS/2024-large-deviation-full-counting-statistics-in-adiabatic-open-quantum-dynamics"
+license: MIT
