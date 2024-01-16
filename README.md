@@ -14,5 +14,7 @@ Folder Structure:
   - The Jupyter notebook **Adiabaticity_against_quench.ipynb** generates the data for Figure 2.
   - The Jupyter notebooks **Adiabatic_doob_trott_traj.ipynb** and **Adiabatic_doob_trott_traj_activity.ipynb** generate the data for Figure 3.
   - The notebook **Controlled_adiabaticity_against_quench.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
+  - The notebook **Local_master_equation.ipynb** and **Local_master_equation_Activity.ipynb** generates the phase map for the rate function.
+  - The notebook **Scaling_Adiabatic_Doob_Trott_Traj_Activity** generates the data for estimanting the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
   - The Jupyter notebooks **Plotting_Fig2.ipynb** and **Plotting_Fig3.ipynb** read the generated data and plot them.
 
