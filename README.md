@@ -11,10 +11,10 @@ Basic Information about the Directories:
 Folder Structure:
   - Each notebook is self-contained, representing one part of the data.
   - The "figures" folder contains a file .svg, where the figures were post-processed (adjusted font size, font style, legend size, etc.).
-  - The Jupyter notebook **Adiabaticity_against_quench.ipynb** generates the data for Figure 2.
-  - The Jupyter notebooks **Adiabatic_doob_trott_traj.ipynb** and **Adiabatic_doob_trott_traj_activity.ipynb** generate the data for Figure 3.
-  - The notebook **Controlled_adiabaticity_against_quench.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
-  - The notebook **Local_master_equation.ipynb** and **Local_master_equation_Activity.ipynb** generates the phase map for the rate function.
-  - The notebook **Scaling_Adiabatic_Doob_Trott_Traj_Activity** generates the data for estimanting the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
+  - The Jupyter notebook **Fig2_adiabatic_dynamics.ipynb** generates the data for Figure 2.
+  - The notebook **Fig2_adiabatic_dynamics_numerical_check.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
+  - The Jupyter notebooks **Fig3_trajectory_activity.ipynb** and **Fig3_trajectory_entropy.ipynb** generate the data of the trajectories for Figure 3.
+  - The notebook **Fig3_rate_function_map_entropy.ipynb** and **Fig3_rate_function_map_activity.ipynb** generates the phase map for the rate function depected in Figure 3.
+  - The notebook **Fig3_finite_tau_error.ipynb** generates the data for estimanting the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
   - The Jupyter notebooks **Plotting_Fig2.ipynb** and **Plotting_Fig3.ipynb** read the generated data and plot them.
-
+  - The figures are post processed in the .sgv file in the folder "Figures". 
