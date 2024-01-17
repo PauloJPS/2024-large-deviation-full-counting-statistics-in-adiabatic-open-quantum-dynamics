@@ -14,7 +14,7 @@ Folder Structure:
   - The Jupyter notebook **Fig2_adiabatic_dynamics.ipynb** generates the data for Figure 2.
   - The notebook **Fig2_adiabatic_dynamics_numerical_check.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
   - The Jupyter notebooks **Fig3_trajectory_activity.ipynb** and **Fig3_trajectory_entropy.ipynb** generate the data of the trajectories for Figure 3.
-  - The notebook **Fig3_rate_function_map_entropy.ipynb** and **Fig3_rate_function_map_activity.ipynb** generates the phase map for the rate function depected in Figure 3.
+  - The notebook **Fig3_rate_function_map_entropy.ipynb** and **Fig3_rate_function_map_activity.ipynb** generate the phase map for the rate function depected in Figure 3.
   - The notebook **Fig3_finite_tau_error.ipynb** generates the data for estimanting the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
   - The Jupyter notebooks **Plotting_Fig2.ipynb** and **Plotting_Fig3.ipynb** read the generated data and plot them.
-  - The figures are post processed in the .sgv file in the folder "Figures". 
+  - The figures are post processed in the .svg file in the folder "Figures". 
