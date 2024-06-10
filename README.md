@@ -15,13 +15,12 @@ Basic Information about the Directories:
 Folder Structure:
   - Each notebook is self-contained, representing one part of the data.
   - The "figures" folder contains a file .svg, where the figures were post-processed (adjusted font size, font style, legend size, etc.).
-  - The Jupyter notebook **Fig2_adiabatic_dynamics.ipynb** generates the data for Figure 2.
-  - The notebook **Fig2_adiabatic_dynamics_numerical_check.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
-  - The Jupyter notebooks **Fig3_trajectory_activity.ipynb** and **Fig3_trajectory_entropy.ipynb** generate the data of the trajectories for Figure 3.
-
-
-  - The Jupyter notebooks **Fig3_trajectory_activity.ipynb** and **Fig3_trajectory_entropy.ipynb** generate the data of the trajectories for Figure 3.
-  - The notebook **Fig3_rate_function_map_entropy.ipynb** and **Fig3_rate_function_map_activity.ipynb** generate the phase map for the rate function depicted in Figure 3.
-  - The notebook **Fig3_finite_tau_error.ipynb** generates the data for estimanting the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
-  - The Jupyter notebooks **Plotting_Fig2.ipynb** and **Plotting_Fig3.ipynb** read the generated data and plot them.
+  - The Jupyter notebook **Fig2_AdiabaticDynamics.ipynb** generates the data for Figure 2.
+  - The notebook **Fig2_AdiabaticDynamics_NumericalCheck.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
+  - The Jupyter notebooks **Fig3_Trajectory_Entropy.ipynb** and **Fig3_Trajectory_BlinkingSystem.ipynb** generate the data of the trajectories for Figure 3.
+  - The notebook **Fig3_RateFunctionMap_entropy.ipynb** and **Fig3_RateFunctionMap_BlinkingSystem.ipynb** generate the phase map for the rate function depicted in Figure 
+  - The Jupyter notebooks **FigSM_Trajectory_Act.ipynb** and **Fig3_Trajectory_BlinkingSystem.ipynb** generate the data of the trajectories for Figure 3.
+  - The notebook **FigSM_RateFunctionMap_Activity.ipynb** and **FigSM_Trajectory_Activity.ipynb** generate the figure in the SM. 
+  - The notebook **Fig3_FiniteTau_error.ipynb** generates the data for estimating the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
+  - The Jupyter notebooks **Plotting_Fig2.ipynb**, **Plotting_Fig3.ipynb**, and **Plotting_FigSM.ipynb** read the generated data and plot them.
   - The figures are post processed in the .svg file in the folder "Figures". 
