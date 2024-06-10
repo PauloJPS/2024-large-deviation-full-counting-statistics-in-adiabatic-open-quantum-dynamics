@@ -21,13 +21,13 @@ Folder Structure:
     2. The notebook **Fig2_AdiabaticDynamics_NumericalCheck.ipynb** checks the numerical results of Figure 2. The time-evolution of the *biased* density matrix can be unstable for large τ and s. This notebook employs a method that is slower but more robust against possible errors due to the stiffness of the differential equation.
     
   - Fig. 3
-    1. The Jupyter notebooks **Fig3_Trajectory_Entropy.ipynb** and **Fig3_Trajectory_BlinkingSystem.ipynb** generate the data of the trajectories for Figure 3.
-    2. The notebook **Fig3_RateFunctionMap_entropy.ipynb** and **Fig3_RateFunctionMap_BlinkingSystem.ipynb** generate the phase map for the rate function depicted in Figure 
-    3. The notebook **Fig3_FiniteTau_error.ipynb** generates the data for estimating the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
+    1. The Jupyter notebooks **Fig3_Trajectory_Entropy.ipynb** and **Fig3_Trajectory_BlinkingSystem.ipynb** generate the quantum trajectories for Figure 3.
+    2. The notebook **Fig3_RateFunctionMap_Entropy.ipynb** and **Fig3_RateFunctionMap_BlinkingSystem.ipynb** generate the phase diagrams for the rate function depicted in Figure 3.
+    3. The notebook **Fig3_FiniteTau_Error.ipynb** generates the data for estimating the error of the adiabatic approximation for the activity in function of $\gamma \tau$. 
   
   - Fig. SM
-    1. The Jupyter notebooks **FigSM_Trajectory_Act.ipynb** and **Fig3_Trajectory_BlinkingSystem.ipynb** generate the data of the trajectories for Figure 3.
-    2. The notebook **FigSM_RateFunctionMap_Activity.ipynb** and **FigSM_Trajectory_Activity.ipynb** generate the figure in the SM. 
+    1. The Jupyter notebook **FigSM_RateFunctionMap_Activity.ipynb**  generates the rate function phase diagram for the Fig. in the SM.
+    2. The Jupyter notebook **FigSM_Trajectory_Activity.ipynb** generate the quantum trajectory for the Fig. in the SM. 
   
   - Plotting. 
     1. The Jupyter notebooks **Plotting_Fig2.ipynb**, **Plotting_Fig3.ipynb**, and **Plotting_FigSM.ipynb** read the generated data and plot them.
