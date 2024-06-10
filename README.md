@@ -27,7 +27,10 @@ Folder Structure:
   
   - Fig. SM
     1. The Jupyter notebook **FigSM_RateFunctionMap_Activity.ipynb**  generates the rate function phase diagram for the Fig. in the SM.
-    2. The Jupyter notebook **FigSM_Trajectory_Activity.ipynb** generate the quantum trajectory for the Fig. in the SM. 
+    2. The Jupyter notebook **FigSM_Trajectory_Activity.ipynb** generate the quantum trajectory for the Fig. in the SM.
+ 
+  - Further checks
+    1. The Jupyter notebooks with FigCheck contains some further checks we did for investigating heat flows in the system (These results are not in the publication).  
   
   - Plotting. 
     1. The Jupyter notebooks **Plotting_Fig2.ipynb**, **Plotting_Fig3.ipynb**, and **Plotting_FigSM.ipynb** read the generated data and plot them.
