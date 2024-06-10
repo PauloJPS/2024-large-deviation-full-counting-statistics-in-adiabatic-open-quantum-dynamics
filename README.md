@@ -36,4 +36,4 @@ Folder Structure:
     1. The Jupyter notebooks **Plotting_Fig2.ipynb**, **Plotting_Fig3.ipynb**, and **Plotting_FigSM.ipynb** read the generated data and plot them.
       
   - Figs editing 
-    2. The figures are post processed in the .svg file in the folder "Figures". 
+    1. The figures are post processed in the .svg file in the folder "Figures". 
